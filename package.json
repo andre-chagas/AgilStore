@@ -1,0 +1,31 @@
+{
+  "name": "agilstore-inventario",
+  "version": "1.0.0",
+  "description": "Aplicação CLI para gerenciamento de inventário da AgilStore.",
+  "main": "src/cli.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/cli.js",
+    "agilstore": "node src/cli.js",
+    "list": "node src/cli.js listar",
+    "add": "node src/cli.js adicionar",
+    "update": "node src/cli.js atualizar",
+    "delete": "node src/cli.js excluir",
+    "search": "node src/cli.js buscar"
+  },
+  "bin": {
+    "agilstore": "./src/cli.js"
+  },
+  "keywords": [
+    "inventario",
+    "agilstore",
+    "cli",
+    "node"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "dependencies": {}
+}
